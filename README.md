@@ -15,3 +15,12 @@ So to simply run app without extra setup just use command below
 ```
 docker-compose up -d --build
 ```
+
+#Test
+I also wrote some unit tests for an app. To run them firstly setup virtual enviroment (venv) using requirements.txt and dev_requirements.txt files
+
+Then simply run command
+
+```
+pytest
+```
